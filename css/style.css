@@ -4,13 +4,13 @@ h1, h2 {
   text-align: center;
 
   height: auto;
-  width: 400px;
+  width: 600px;
   margin: auto;
   padding-top: 10px;
 }
 
 main {
-  margin: auto;
+  margin: 100%;
   width: 500px;
   text-align: left;
 }
