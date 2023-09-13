@@ -7,6 +7,10 @@ h1, h2 {
   width: 600px;
   margin: auto;
   padding-top: 10px;
+
+  border: solid;
+  border-width: 1mm;
+  background-color: #fda6bd;
 }
 
 main {
