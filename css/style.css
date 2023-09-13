@@ -10,7 +10,12 @@ h1, h2 {
 }
 
 main {
-  margin: 100%;
+  margin: 5px;
   width: 500px;
   text-align: left;
 }
+
+body {
+  background-color: #86cdfa;
+}
+
