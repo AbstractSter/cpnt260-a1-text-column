@@ -1,2 +1,8 @@
 # cpnt260-a1-text-column
-How to paint a clean line using tape
+CPNT 260
+
+Assignment 1 - Text Column
+
+Author: Sterling Smith
+
+
