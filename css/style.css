@@ -1,4 +1,4 @@
-h1, h2 {
+h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
   text-align: center;
@@ -7,19 +7,29 @@ h1, h2 {
   width: 600px;
   margin: auto;
   padding-top: 10px;
+  max-width: 650px;
 
   border: solid;
   border-width: 1mm;
   background-color: #fda6bd;
 }
 
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-align: center;
+}
+
 main {
-  margin: 5px;
+  font-family: fantasy;
+  margin: auto;
   width: 500px;
-  text-align: left;
+  text-align: center;
+  max-width: 85px;
 }
 
 body {
   background-color: #86cdfa;
+  max-width: 650px;
 }
 
