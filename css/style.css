@@ -4,9 +4,9 @@ h1 {
   text-align: center;
 
   height: auto;
-  width: 600px;
+  width: auto;
   margin: auto;
-  padding-top: 10px;
+  padding-left: 10px;
   max-width: 650px;
 
   border: solid;
