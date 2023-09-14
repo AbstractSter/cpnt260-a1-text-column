@@ -34,3 +34,6 @@ body {
   max-width: 650px;
 }
 
+style {
+  align-self: hover;
+}
