@@ -1,4 +1,5 @@
 h1 {
+  /* Main Heading */
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: bold;
   text-align: center;
@@ -15,21 +16,41 @@ h1 {
 }
 
 h2 {
+  /* Sub Heading */
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
   text-align: center;
   width: fit-content;
+  padding: 20px 0;
+  
 }
 
 main {
-  font-family: Arial, Helvetica, sans-serif;
+  /* Main Content */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: auto;
-  width: 500px;
+  
+  text-align: left;
+  max-width: 85ch;
+  padding: 25px, 0px, 25px, 0px;
+}
+
+p {
+  /* Paragraph */
+  line-height: 150%;
+}
+
+.wrapper {
+  /* Linked Video */
+  width: 100%;
   text-align: center;
-  max-width: 85rem;
+}
+
+iframe {
+  max-width: 100%;
 }
 
 body {
+  /* Main Page Background */
   background-color: #86cdfa;
-  max-width: 650px;
 }
