@@ -2,6 +2,7 @@ h1 {
   /* Main Heading */
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: bold;
+  font-variant: small-caps;
   text-align: center;
 
   height: auto;
@@ -19,6 +20,7 @@ h2 {
   /* Sub Heading */
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
+  
   text-align: center;
   width: fit-content;
   padding: 20px 0;
@@ -41,12 +43,13 @@ p {
 }
 
 .wrapper {
-  /* Linked Video */
+  /* Linked Video Wrapper */
   width: 100%;
   text-align: center;
 }
 
 iframe {
+  /* Linked Video */
   max-width: 100%;
 }
 
