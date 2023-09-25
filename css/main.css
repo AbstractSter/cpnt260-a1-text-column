@@ -1,5 +1,5 @@
 nav ul {
-  display: flex;
+  display: block;
   justify-content: center;
   font-size: 12px;
 
@@ -12,6 +12,7 @@ nav ul {
 
 nav a {
   display: block;
+  width: fit-content;
   padding: 1rem;
   text-decoration: none;
   color: white;
@@ -26,11 +27,16 @@ a:hover {
   background-color:#ffa400;
 }
 
-@media (width > 50rem) {
+@media (width > 50em) {
   /* This css is only added to the page when the screen is 50rem or wider */
   nav ul {
     display: flex;
     justify-content: space-evenly;
     font-size: 20px;
+    padding: 0;
   }
+  li {
+    display: block;
+}
+
 }
