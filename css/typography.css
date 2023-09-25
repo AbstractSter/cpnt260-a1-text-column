@@ -20,19 +20,14 @@ h2 {
   /* Sub Heading */
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
+  margin: auto;
   
   text-align: center;
   width: 30ch;
-  padding: 20px 0;
+  margin: auto;
 }
 
 p {
   /* Paragraph */
   line-height: 150%;
-}
-
-img {
-  max-width: 650px;
-  border-radius: 2rem;
-  align-items: center;
 }
