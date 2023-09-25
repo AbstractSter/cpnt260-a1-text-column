@@ -1,4 +1,5 @@
 nav ul {
+/* Navigation Bar */
   display: block;
   flex-grow: 1;
   font-size: 12px;
@@ -11,6 +12,7 @@ nav ul {
 }
 
 nav li {
+/* Navigation bar buttons */
   flex: auto;
 }
 
@@ -19,6 +21,7 @@ a href {
 }
 
 nav a {
+/* Navigation bar items */
   display: block;
   width: fit-content;
   padding: 1rem;
@@ -29,10 +32,12 @@ nav a {
 
 
 nav a:hover {
+/* Hover effect in navigation bar */
   background-color: #ffa400;
 }
 
 a:hover {
+/* Hover effect on text links */
   background-color:#ffa400;
 }
 
