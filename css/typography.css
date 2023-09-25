@@ -23,7 +23,7 @@ h2 {
   text-align: center;
   
   margin: auto;
-  width: 30ch;
+  max-width: 30ch;
   padding: 2rem;
 }
 
