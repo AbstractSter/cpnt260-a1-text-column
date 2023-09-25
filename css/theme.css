@@ -22,6 +22,7 @@ body {
 iframe {
   /* Linked Video */
   max-width: 100%;
+  border-radius: 2rem;
 }
 
 img {
