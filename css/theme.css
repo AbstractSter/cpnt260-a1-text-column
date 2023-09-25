@@ -26,7 +26,11 @@ iframe {
 
 img {
   /* Image */
-  max-width: 650px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+  padding: 10%;
   border-radius: 2rem;
-  align-items: center;
 }

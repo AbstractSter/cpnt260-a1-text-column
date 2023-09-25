@@ -8,7 +8,7 @@ h1 {
   height: auto;
   width: auto;
   margin: auto;
-  padding: 10px, 10px, 10px, 10px;
+  padding: 10px;
   max-width: 650px;
 
   border: solid;
@@ -20,11 +20,11 @@ h2 {
   /* Sub Heading */
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
-  margin: auto;
-  
   text-align: center;
-  width: 30ch;
+  
   margin: auto;
+  width: 30ch;
+  padding: 2rem;
 }
 
 p {
