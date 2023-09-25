@@ -13,6 +13,6 @@ iframe {
   /* This css is only added to the page when the screen is 50rem or wider */
   nav ul {
     display: flex;
-    justify-content: flex-end;  
+    justify-content: space-evenly;
   }
 }
