@@ -1,47 +1,3 @@
-h1 {
-  /* Main Heading */
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-weight: bold;
-  font-variant: small-caps;
-  text-align: center;
-
-  height: auto;
-  width: auto;
-  margin: auto;
-  padding-left: 10px;
-  max-width: 650px;
-
-  border: solid;
-  border-width: 1mm;
-  background-color: #fda6bd;
-}
-
-h2 {
-  /* Sub Heading */
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: bold;
-  
-  text-align: center;
-  width: fit-content;
-  padding: 20px 0;
-  
-}
-
-main {
-  /* Main Content */
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin: auto;
-  
-  text-align: left;
-  max-width: 85ch;
-  padding: 25px, 0px, 25px, 0px;
-}
-
-p {
-  /* Paragraph */
-  line-height: 150%;
-}
-
 .wrapper {
   /* Linked Video Wrapper */
   width: 100%;
@@ -53,7 +9,10 @@ iframe {
   max-width: 100%;
 }
 
-body {
-  /* Main Page Background */
-  background-color: #86cdfa;
+@media (min-width: 50rem) {
+  /* This css is only added to the page when the screen is 50rem or wider */
+  nav ul {
+    display: flex;
+    justify-content: flex-end;  
+  }
 }

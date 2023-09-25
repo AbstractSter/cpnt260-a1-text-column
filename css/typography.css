@@ -1,0 +1,32 @@
+h1 {
+  /* Main Heading */
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  font-variant: small-caps;
+  text-align: center;
+
+  height: auto;
+  width: auto;
+  margin: auto;
+  padding-left: 10px;
+  max-width: 650px;
+
+  border: solid;
+  border-width: 1mm;
+  background-color: #fda6bd;
+}
+
+h2 {
+  /* Sub Heading */
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  
+  text-align: center;
+  width: fit-content;
+  padding: 20px 0;
+}
+
+p {
+  /* Paragraph */
+  line-height: 150%;
+}
