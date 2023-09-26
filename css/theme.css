@@ -1,6 +1,6 @@
 main {
   /* Main Content */
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
   margin: auto;
   text-align: left;
   
@@ -10,56 +10,16 @@ main {
 
 body {
   /* Main Page Background */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
   background-color: #86cdfa;
 }
-
-nav ul {
-  /* Navigation Bar */
-    display: block;
-    flex-grow: 1;
-    font-size: 12px;
-  
-    list-style: none;
-    background-color: #00263a;
-    
-    padding-left: 0;
-    margin: 0;
-  }
-  
-  nav li {
-  /* Navigation bar buttons */
-    flex: auto;
-  }
 
 iframe {
   /* Linked Video */
   max-width: 100%;
   border-radius: 2rem;
 }
-
-nav a:hover {
-  /* Hover effect in navigation bar */
-    background-color: #ffa400;
-  }
-  
-  a:hover {
-  /* Hover effect on text links */
-    background-color:#ffa400;
-  }
-
-  a href {
-    display: block;
-  }
-  
-  nav a {
-  /* Navigation bar items */
-    display: block;
-    width: fit-content;
-    padding: 1rem;
-    text-decoration: none;
-    color: white;
-    border-bottom: 3px solid transparent;
-  }
 
 img {
   /* Image */

@@ -1,0 +1,33 @@
+nav ul {
+  /* Navigation Bar */
+    display: block;
+    flex-grow: 1;
+    font-size: 12px;
+  
+    list-style: none;
+    background-color: #004266;
+    
+    padding-left: 0;
+    margin: 0;
+  }
+
+nav a {
+  display: block;
+  padding: 1rem;
+
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  /* Hover effect in navigation bar */
+    background-color: #ffa400;
+  }
+
+nav li {
+    /* Navigation bar buttons */
+      flex:content;
+    }
+
+   
